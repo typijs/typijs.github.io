@@ -18,7 +18,7 @@ sitemap:
 	</div>
 	</div>  
 	<div class="video-container">
-		<video width="100%" poster="https://github.com/angular-cms/angular-cms/raw/main/resources/images/on-page-preview.jpg" controls>
+		<video width="100%" poster="https://github.com/angular-cms/angular-cms/raw/main/resources/images/on-page-preview.jpg" controls autoplay>
 			<source src="/assets/videos/angular-cms.webm" type="video/webm">
 		</video>
 	</div>  

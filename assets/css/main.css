@@ -94,6 +94,7 @@ section+section {
   flex-basis: 50%;
   margin: 0 25px;
   order: 1;
+  align-self: center;
 }
 
 .row .col-reorder {
