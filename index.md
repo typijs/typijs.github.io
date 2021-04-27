@@ -27,10 +27,8 @@ sitemap:
 <section>
 	<div class="row">
 		<div class="col-50">
-			<div id="describe-text">
-					<p>A simple, minimal CMS portal for a small and medium sites, focusing on creating content</p>
-					<p>Fork and use the theme from the <strong> <a href="https://github.com/typijs/typijs"> repository</a> </strong></p>
-				</div>
+				<h2>How can I <strong>keep track</strong> of my sales team?</h2>
+				<p>Hydra learns your business. By analyzing your sales data, Hydra optimizes your sales process and show you where you should be spending your resources.</p>
 
 		</div>
 		<div class="col-50">
@@ -41,10 +39,8 @@ sitemap:
 	</section><section>
 	<div class="row">
 		<div class="col-50">
-			<div id="describe-text">
-					<p>A simple, minimal CMS portal for a small and medium sites, focusing on creating content</p>
-					<p>Fork and use the theme from the <strong> <a href="https://github.com/typijs/typijs"> repository</a> </strong></p>
-				</div>
+			<h2>How can I <strong>keep track</strong> of my sales team?</h2>
+				<p>Hydra learns your business. By analyzing your sales data, Hydra optimizes your sales process and show you where you should be spending your resources.</p>
 
 		</div>
 
@@ -55,10 +51,8 @@ sitemap:
 </section><section>
 	<div class="row">
 		<div class="col-50">
-			<div id="describe-text">
-					<p>A simple, minimal CMS portal for a small and medium sites, focusing on creating content</p>
-					<p>Fork and use the theme from the <strong> <a href="https://github.com/typijs/typijs"> repository</a> </strong></p>
-				</div>
+			<h2>How can I <strong>keep track</strong> of my sales team?</h2>
+				<p>Hydra learns your business. By analyzing your sales data, Hydra optimizes your sales process and show you where you should be spending your resources.</p>
 
 		</div>
 		<div class="col-50">
