@@ -7,6 +7,7 @@ sitemap:
 ---
 
 <div class="hero-banner">
+	<div class="container">
 	{% include page/title.html %}
 
     <img src="{{ '/assets/imgs/typijs-logo.png' | prepend: site.baseurl }}" id="footer-img"/>
@@ -15,12 +16,12 @@ sitemap:
 		<p>A simple, minimal CMS portal for a small and medium sites, focusing on creating content</p>
 		<p>Get started from <strong> <a href="https://github.com/typijs/typijs"> repository</a> </strong></p>
 	</div>
-
+	</div>  
 	<div class="video-container">
 		<video width="100%" poster="https://github.com/angular-cms/angular-cms/raw/main/resources/images/on-page-preview.jpg" controls>
 			<source src="/assets/videos/angular-cms.webm" type="video/webm">
 		</video>
-	</div>    
+	</div>  
 </div>
 
 <div class="container">
