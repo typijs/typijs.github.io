@@ -10,8 +10,6 @@ body {
 }
 
 a {
-  color: #57A;
-  font-weight: bold;
   text-decoration: none;
 }
 
@@ -56,21 +54,69 @@ blockquote p {
 }
 
 strong {
-  color: #16a085;
+  color: #1D2931;
+}
+
+/* Layout */
+.container-fluid {
+  width: 100%;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0px auto;
+  padding: 0 .5rem;
 }
 
 .video-container {
   width: 70%;
   margin: auto;
+  border-radius: 6px;
+  position: relative;
+  bottom: -30px;
 }
 
-.wrapper {
-  max-width: 1320px;
-  margin: 30px auto;
+section {
+  padding: 80px 0;
 }
 
-/* =Header */
-/*************************************************************/
+section+section {
+  padding-top: 0;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row .col-50 {
+  flex-basis: 50%;
+  margin: 0 25px;
+  order: 1;
+}
+
+.row .col-reorder {
+  order: 0;
+}
+
+/* Color */
+.bg-dark {
+  background-color: #1D2931 !important;
+}
+
+.bg-dark a,
+.bg-dark li,
+.bg-dark span,
+.bg-dark p,
+.bg-dark div {
+  color: white !important;
+}
+
+.text-white {
+  color: white !important;
+}
+
+/* Header */
 .header {
   overflow: hidden;
 }
@@ -82,8 +128,11 @@ strong {
 .logo {
   font-size: 300%;
   font-weight: 700;
-  color: #16a085;
   display: block;
+}
+
+.logo img {
+  margin: auto;
 }
 
 .menu {
@@ -115,21 +164,50 @@ strong {
   list-style-type: none;
 }
 
+.social-links .fa {
+  color: #fedc49;
+}
+
 .social-links__entry {
   display: inline-block;
   margin-left: 10px;
 }
 
-/* =Titles */
+/* Hero Banner */
+.hero-banner {
+  background-color: #273742;
+  background-attachment: fixed;
+  background-image: url('https://www.mongodb.com/live/public/images/home/hero_bg.svg');
+  background-position: bottom center;
+  background-size: cover;
+  border: 1px solid transparent;
+  padding: 0 .5rem;
+}
+
+.hero-banner a,
+.hero-banner li,
+.hero-banner span,
+.hero-banner p,
+.hero-banner div {
+  color: white !important;
+}
+
+.hero-banner .container {
+  margin: 0px auto !important;
+  padding-top: 2px;
+}
+
+/* Titles */
 /*************************************************************/
 .page-title {
-  margin: 30px auto;
+  margin: 80px auto;
   text-align: center;
 }
 
 .page-title__text {
   font-weight: 700;
   font-size: 150%;
+  margin-bottom: 15px;
 }
 
 .page-title__subtitle {
@@ -176,18 +254,19 @@ strong {
 
 /* =Post page */
 /*************************************************************/
-.about {
+.footer {
   color: #828282;
   text-align: center;
   line-height: 24px;
+  padding: 40px 0;
 }
 
-.about__devider {
+.footer__devider {
   font-size: 100%;
   letter-spacing: 9.09px;
 }
 
-.about__text {
+.footer__text {
   font-size: 100%;
 }
 
@@ -216,7 +295,7 @@ strong {
 
 /* =Main Page */
 /*************************************************************/
-#about-img {
+#footer-img {
   border-radius: 13%;
   max-width: 125px;
   margin: auto;
@@ -233,25 +312,22 @@ strong {
 
 /* X-Large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) {
-  .wrapper {
+  .container {
     max-width: 1140px;
-    margin: 30px auto;
   }
 }
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
-  .wrapper {
+  .container {
     max-width: 960px;
-    margin: 30px auto;
   }
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-  .wrapper {
+  .container {
     max-width: 720px;
-    margin: 30px auto;
   }
 
   .video-container {
@@ -261,9 +337,16 @@ strong {
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
-  .wrapper {
+  .container {
     max-width: 540px;
-    margin: 15px auto;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .row .col-reorder {
+    order: 1;
   }
 
   .video-container {
@@ -282,11 +365,8 @@ strong {
     line-height: 1.6;
   }
 
-
-
-  .wrapper {
+  .container {
     max-width: 100%;
-    margin: 15px auto;
   }
 
   .navigation,
@@ -297,12 +377,12 @@ strong {
   }
 
   .social-links {
-    font-size: 200%;
+    font-size: 160%;
     margin: 10px auto;
   }
 
   .page-title {
-    margin-top: 10px;
+    margin-top: 30px;
     margin-bottom: 30px;
   }
 

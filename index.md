@@ -1,20 +1,74 @@
 ---
-layout: page
+layout: default
 title: Hello, TypiJS
 subtitle: A CMS framework for building fully-featured SPA sites built on Angular, NodeJS and MongoDB with TypeScript
 sitemap:
   priority: 0.9
 ---
 
-<img src="{{ '/assets/img/typijs-logo.png' | prepend: site.baseurl }}" id="about-img">
+<div class="hero-banner">
+	{% include page/title.html %}
 
-<div id="describe-text">
-	<p>A simple, minimal Jekyll theme for a personal web page and blog, focusing on white space and readability</p>
-	<p>Fork and use the theme from the <strong> <a href="https://github.com/knhash/Pudhina"> repository</a> </strong></p>
+    <img src="{{ '/assets/imgs/typijs-logo.png' | prepend: site.baseurl }}" id="footer-img"/>
+
+	<div id="describe-text">
+		<p>A simple, minimal CMS portal for a small and medium sites, focusing on creating content</p>
+		<p>Get started from <strong> <a href="https://github.com/typijs/typijs"> repository</a> </strong></p>
+	</div>
+
+	<div class="video-container">
+		<video width="100%" poster="https://github.com/angular-cms/angular-cms/raw/main/resources/images/on-page-preview.jpg" controls>
+			<source src="/assets/videos/angular-cms.webm" type="video/webm">
+		</video>
+	</div>    
 </div>
 
-<div class="video-container">
-	<video width="100%" controls>
-		<source src="/assets/img/angular-cms.webm" type="video/webm">
-	</video>
+<div class="container">
+<section>
+	<div class="row">
+		<div class="col-50">
+			<div id="describe-text">
+					<p>A simple, minimal CMS portal for a small and medium sites, focusing on creating content</p>
+					<p>Fork and use the theme from the <strong> <a href="https://github.com/typijs/typijs"> repository</a> </strong></p>
+				</div>
+
+		</div>
+		<div class="col-50">
+			<img src="/assets/imgs/typijs-bg-1.jpg"/>
+		</div>
+		
+	</div>
+	</section><section>
+	<div class="row">
+		<div class="col-50">
+			<div id="describe-text">
+					<p>A simple, minimal CMS portal for a small and medium sites, focusing on creating content</p>
+					<p>Fork and use the theme from the <strong> <a href="https://github.com/typijs/typijs"> repository</a> </strong></p>
+				</div>
+
+		</div>
+
+		<div class="col-50 col-reorder">
+			<img src="/assets/imgs/typijs-bg.png"/>
+		</div>
+	</div>
+</section><section>
+	<div class="row">
+		<div class="col-50">
+			<div id="describe-text">
+					<p>A simple, minimal CMS portal for a small and medium sites, focusing on creating content</p>
+					<p>Fork and use the theme from the <strong> <a href="https://github.com/typijs/typijs"> repository</a> </strong></p>
+				</div>
+
+		</div>
+		<div class="col-50">
+			<img src="https://github.com/angular-cms/angular-cms/raw/main/resources/images/on-page-preview.jpg"/>
+		</div>
+		
+	</div>
+	</section>
 </div>
+
+{% include page/footer.html %}
+
+
