@@ -178,7 +178,7 @@ section+section {
 .hero-banner {
   background-color: #273742;
   background-attachment: fixed;
-  background-image: url('https://www.mongodb.com/live/public/images/home/hero_bg.svg');
+  background-image: url('/assets/imgs/hero_bg.svg');
   background-position: bottom center;
   background-size: cover;
   border: 1px solid transparent;

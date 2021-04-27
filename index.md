@@ -33,7 +33,7 @@ sitemap:
 
 		</div>
 		<div class="col-50">
-			<img src="/assets/imgs/typijs-bg-1.jpg"/>
+			<img src="/assets/imgs/bg-1.png"/>
 		</div>
 		
 	</div>
@@ -46,7 +46,7 @@ sitemap:
 		</div>
 
 		<div class="col-50 col-reorder">
-			<img src="/assets/imgs/typijs-bg.png"/>
+			<img src="/assets/imgs/bg-2.png"/>
 		</div>
 	</div>
 </section><section>
@@ -57,7 +57,7 @@ sitemap:
 
 		</div>
 		<div class="col-50">
-			<img src="https://github.com/angular-cms/angular-cms/raw/main/resources/images/on-page-preview.jpg"/>
+			<img src="/assets/imgs/bg-3.png"/>
 		</div>
 		
 	</div>
