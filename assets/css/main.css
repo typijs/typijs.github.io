@@ -63,14 +63,14 @@ strong {
 }
 
 .container {
-  max-width: 1320px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 .75rem;
 }
 
 .video-container {
-  width: 60%;
+  width: 55%;
   border-radius: 6px;
   position: relative;
   bottom: -30px;
