@@ -216,6 +216,15 @@ section+section {
   color: white;
 }
 
+/* Featured section */
+
+.feature-section {
+  background-color: #273742;
+  background-image: url('/assets/imgs/footer_bg.svg');
+  background-position: bottom center;
+  background-size: cover;
+}
+
 /* Titles */
 /*************************************************************/
 .page-title {
