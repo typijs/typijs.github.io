@@ -2,32 +2,28 @@
     <div class="navigation">
         <a href="{{ '/' | prepend: site.baseurl }}" class="logo">
             {% if site.logo %}
-            <img src="{{ site.logo | prepend: site.baseurl}}" />
+            <img class="m-auto" src="{{ site.logo | prepend: site.baseurl}}" />
             {% else %}
             {{ site.title }}
             {% endif %}
         </a>
-        <!-- <ul class="menu">
-            <li class="menu__entry"><a href="{{ '/resume' | prepend: site.baseurl }}">Documents</a></li>
-            <li class="menu__entry"><a href="{{ '/blog' | prepend: site.baseurl }}">Blog</a></li>
-        </ul> -->
     </div>
     <ul class="social-links">
-        <a href="{{ '/docs' | prepend: site.baseurl }}" class="social-links__entry">Docs</a>
+        <a href="{{ '/docs' | prepend: site.baseurl }}" class="social-links__entry">Get started</a>
         <a href="{{ '/blog' | prepend: site.baseurl }}" class="social-links__entry">Blog</a>
         {% if site.author.email %}
         <a href="mailto:{{ site.author.email }}" class="social-links__entry" target="_blank">
-            <i class="fa fa-envelope-square"></i>
+            <i class="fa fa-envelope-square text-yellow"></i>
         </a>
         {% endif %}
         {% if site.author.github %}
         <a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
-            <i class="fa fa-github"></i>
+            <i class="fa fa-github text-yellow"></i>
         </a>
         {% endif %}
         {% if site.author.linkedin %}
         <a href="https://in.linkedin.com/in/{{ site.author.linkedin }}" class="social-links__entry" target="_blank">
-            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-linkedin text-yellow"></i>
         </a>
         {% endif %}
     </ul>

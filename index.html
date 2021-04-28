@@ -1,0 +1,92 @@
+---
+layout: default
+title: Hello, TypiJS
+subtitle: A CMS framework for building fully-featured SPA sites
+sitemap:
+priority: 0.9
+---
+
+<div class="hero-banner">
+	<div class="container">
+		{% include page/title.html %}
+
+		<h2 class="page-title">
+			Built on top modern stacks Angular, NodeJS and MongoDB with TypeScript
+			<img src="{{ '/assets/imgs/modern-stacks.png' | prepend: site.baseurl }}" class="logo-stacks" />
+		</h2>
+
+		<ul class="feature-list m-auto">
+			<li><i class="fa fa-check"></i> Open-source</li>
+			<li><i class="fa fa-check"></i> Full-stack applications</li>
+		</ul>
+		<ul class="feature-list m-auto">
+			<li><i class="fa fa-check"></i> Multi-website solutions</li>
+			<li><i class="fa fa-check"></i> Multi-language sites</li>
+		</ul>
+		<div id="describe-text">
+			<p>A <strong class="text-yellow">highly-extendable & highly-customize</strong> CMS for small to complex SPA
+				sites, focusing on
+				development experiences</p>
+		</div>
+		<br />
+		<div class="text-center">
+			<a class="btn text-dark" href="https://typijs.github.io/typijs">GET STARTED TUTORIAL <i
+					class="fa fa-arrow-right"></i></a>
+		</div>
+	</div>
+
+	<div class="video-container mx-auto">
+		<video width="100%"
+			poster="https://github.com/angular-cms/angular-cms/raw/main/resources/images/on-page-preview.jpg" controls
+			autoplay>
+			<source src="/assets/videos/angular-cms.webm" type="video/webm">
+		</video>
+	</div>
+</div>
+
+<div class="container">
+	<section>
+		<div class="row">
+			<div class="col-50">
+				<h2>How can I <strong>keep track</strong> of my sales team?</h2>
+				<p>Hydra learns your business. By analyzing your sales data, Hydra optimizes your sales process and show
+					you where you should be spending your resources.</p>
+
+			</div>
+			<div class="col-50">
+				<img src="/assets/imgs/bg-1.png" />
+			</div>
+
+		</div>
+	</section>
+	<section>
+		<div class="row">
+			<div class="col-50">
+				<h2>How can I <strong>keep track</strong> of my sales team?</h2>
+				<p>Hydra learns your business. By analyzing your sales data, Hydra optimizes your sales process and show
+					you where you should be spending your resources.</p>
+
+			</div>
+
+			<div class="col-50 col-reorder">
+				<img src="/assets/imgs/bg-2.png" />
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="row">
+			<div class="col-50">
+				<h2>How can I <strong>keep track</strong> of my sales team?</h2>
+				<p>Hydra learns your business. By analyzing your sales data, Hydra optimizes your sales process and show
+					you where you should be spending your resources.</p>
+
+			</div>
+			<div class="col-50">
+				<img src="/assets/imgs/bg-3.png" />
+			</div>
+
+		</div>
+	</section>
+</div>
+
+{% include page/footer.html %}
