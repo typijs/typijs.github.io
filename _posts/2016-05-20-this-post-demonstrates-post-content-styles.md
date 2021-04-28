@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "This post demonstrates post content styles"
-subtitle: "This is a subtitle"
+description: "This is a description"
 date:   2016-05-20 21:21:21 +0530
 categories: junk
 author: "Bart Simpson"
@@ -91,19 +91,19 @@ Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet b
 
 ### Tables
 
-Title 1               | Title 2               | Title 3               | Title 4
---------------------- | --------------------- | --------------------- | ---------------------
-lorem                 | lorem ipsum           | lorem ipsum dolor     | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit
-lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit  
+| Title 1               | Title 2               | Title 3               | Title 4               |
+| --------------------- | --------------------- | --------------------- | --------------------- |
+| lorem                 | lorem ipsum           | lorem ipsum dolor     | lorem ipsum dolor sit |
+| lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit |
+| lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit |
+| lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit |
 
 
 With uneven columns
 
-Title 1 | Title 2 | Title 3 | Title 4
---- | --- | --- | ---
-lorem | lorem ipsum | lorem ipsum dolor | lorem ipsum dolor sit
-lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur | lorem ipsum dolor sit amet | lorem ipsum dolor sit
-lorem ipsum dolor | lorem ipsum | lorem | lorem ipsum
-lorem ipsum dolor | lorem ipsum dolor sit | lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur
+| Title 1                    | Title 2                                | Title 3                    | Title 4                                |
+| -------------------------- | -------------------------------------- | -------------------------- | -------------------------------------- |
+| lorem                      | lorem ipsum                            | lorem ipsum dolor          | lorem ipsum dolor sit                  |
+| lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur | lorem ipsum dolor sit amet | lorem ipsum dolor sit                  |
+| lorem ipsum dolor          | lorem ipsum                            | lorem                      | lorem ipsum                            |
+| lorem ipsum dolor          | lorem ipsum dolor sit                  | lorem ipsum dolor sit amet | lorem ipsum dolor sit amet consectetur |

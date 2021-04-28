@@ -1,3 +1,19 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole site, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing these this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
 # Site settings
 title: TypiJS
 logo: /assets/imgs/logo-small.png
@@ -5,7 +21,7 @@ description: >
   The TypiJS official website
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://typijs.com" # the base hostname & protocol for your site
+url: "https://typijs.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 author:
   fullname: danghung1202
@@ -20,3 +36,10 @@ styles: [agate, androidstudio, arta, asceti, atelier-cave.dark, atelier-cave.lig
 # Build settings
 highlighter: null
 markdown: kramdown
+
+# Google Analytics Tracking (optional)
+ga_tracking: G-29JTYJQVME
+ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
+
+plugins:
+  - jekyll-seo-tag
