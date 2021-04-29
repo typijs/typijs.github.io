@@ -1,6 +1,8 @@
 <h1 class="page-title">
-    <div class="page-title__text">{{ page.title }}</div>
+    <div class="page-title__text">
+        {% if page.header %} {{ page.header }} {% else %} {{ page.title }} {% endif %}
+    </div>
     <div class="page-title__subtitle">
-        {% if page.subtitle %} {{ page.subtitle }} {% else %} {{ page.description }} {% endif %}
+        {% if page.subheader %} {{ page.subheader }} {% else %} {{ page.description }} {% endif %}
     </div>
 </h1>
