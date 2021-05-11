@@ -21,7 +21,7 @@ description: >
   The TypiJS official website
 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://typijs.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.typijs.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 author:
   fullname: danghung1202
