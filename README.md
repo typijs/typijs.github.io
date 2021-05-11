@@ -38,7 +38,7 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+For running this site on local, please following these steps.
 * npm
   ```sh
   npm install npm@latest -g
@@ -58,9 +58,9 @@ This is an example of how to list things you need to use the software and how to
     ```
 ### Development
 
-    ```sh
-        jekyll serve
-    ```
+```sh
+    jekyll serve
+```
 
 <!-- LICENSE -->
 ## License
